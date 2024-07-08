@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    border:  0px blue dashed;
+    border-radius: 2px;
+    background: rgb(177, 248, 130);
+    background-image: url(https://previews.123rf.com/images/vapi/vapi1607/vapi160700078/59773157-calle-a-la-calle-de-la-ciudad-paisaje-urbano-con-el-tr%C3%A1fico-urbano-en-barcelona-espa%C3%B1a.jpg);
+    height: ;
+}
+
+.semaforo{
+    width: 130px;
+    background: black;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px green;
+
+}
+.modulo{
+    width: 130px;
+    height: 130px;
+    background: gold;
+    margin:  5px;
+    padding: 10px;
+}
+.luz{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    
+    }
+.roja {background: red;
+text-align: center;}
+.amarilla {background: yellow;}
+.verde{background: green;}
+
+
+.encendida{
+    box-shadow: 5px 5px 10px red 
+    , -5px -5px 10px red;
+}
+.roja.encendida {
+    box-shadow: 5px 5px 10px red 
+    , -8px -8px 10px red;
+
+}
+.amarilla.encendida {
+    box-shadow: 5px 5px 10px yellow
+    , -5px -5px 10px yellow;
+
+}
+.verde.encendida {
+    box-shadow: 5px 5px 10px green 
+    , -5px -5px 10px green;
+
+}
